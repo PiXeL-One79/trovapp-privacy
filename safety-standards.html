@@ -3,182 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TrovApp - Standard di Sicurezza</title>
+    <title>Standard di Sicurezza - TrovApp</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
             color: #333;
+        }
+        header {
+            background-color: #26A69A;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        .nav {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            margin-right: 20px;
+            color: #26A69A;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f8f9fa;
         }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .logo {
-            font-size: 36px;
-            font-weight: bold;
+        h1, h2, h3 {
             color: #26A69A;
-            margin-bottom: 10px;
         }
-        h1 {
-            color: #1B4965;
-            border-bottom: 2px solid #26A69A;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #1B4965;
-            margin-top: 30px;
-        }
-        .card {
-            background-color: white;
-            border-radius: 8px;
-            padding: 25px;
+        .section {
             margin-bottom: 30px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .box {
-            background-color: #E0F7F7;
-            border-left: 4px solid #26A69A;
-            padding: 15px 20px;
-            margin: 20px 0;
-            border-radius: 0 8px 8px 0;
-        }
-        ul, ol {
-            padding-left: 25px;
-        }
-        .highlight {
-            background-color: #FFF8E1;
+        .security-card {
+            background-color: #f8f8f8;
             padding: 15px;
-            border-radius: 6px;
-            margin: 20px 0;
-            border-left: 4px solid #FFB74D;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #26A69A;
         }
-        .contact {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #E0F7F7;
-            border-radius: 8px;
-        }
-        .email {
-            font-weight: bold;
+        .security-card h3 {
+            margin-top: 0;
             color: #26A69A;
         }
-        footer {
-            margin-top: 50px;
+        .important {
+            background-color: #fff8e1;
+            padding: 15px;
+            border-left: 4px solid #ffca28;
+            margin: 20px 0;
+        }
+        a {
+            color: #26A69A;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+            margin-top: 40px;
             text-align: center;
             font-size: 14px;
             color: #666;
+            border-top: 1px solid #e7e7e7;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer a {
+            color: #26A69A;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">TrovApp</div>
-        <p>Standard di Sicurezza e Linee Guida per la Protezione dei Minori</p>
+        <h1>TrovApp</h1>
+        <p>Standard di Sicurezza</p>
     </header>
-
-    <div class="card">
-        <h1>Standard di Sicurezza della Piattaforma</h1>
-        
-        <p>TrovApp è impegnata a garantire un ambiente sicuro per tutti gli utenti, con particolare attenzione alla protezione dei minori. Questi standard definiscono le misure adottate per prevenire abusi e garantire un'esperienza sicura nella nostra piattaforma.</p>
-
-        <h2>Protezione dei Minori</h2>
-        <p>TrovApp adotta una politica di tolleranza zero verso qualsiasi forma di abuso, sfruttamento o comportamento inappropriato nei confronti dei minori. Abbiamo implementato le seguenti misure per garantire la loro sicurezza:</p>
-        
-        <div class="box">
-            <ul>
-                <li><strong>Registrazione e accesso sicuri</strong>: Gli utenti devono registrarsi con un'email verificata e una password sicura.</li>
-                <li><strong>Limitazione della condivisione di dati personali</strong>: Limitiamo la condivisione di dati personali sensibili all'interno dell'app.</li>
-                <li><strong>Monitoraggio delle interazioni</strong>: Monitoriamo le interazioni sulla piattaforma per rilevare comportamenti sospetti o inappropriati.</li>
-                <li><strong>Meccanismo di segnalazione</strong>: Offriamo un sistema per segnalare contenuti o comportamenti inappropriati in modo semplice e immediato.</li>
-                <li><strong>Moderazione dei contenuti</strong>: Esaminiamo le segnalazioni e i contenuti sospetti per garantire che non vengano pubblicati materiali inappropriati.</li>
-            </ul>
-        </div>
-
-        <h2>Misure Preventive</h2>
-        <p>Per prevenire abusi e proteggere i nostri utenti, abbiamo implementato le seguenti misure preventive:</p>
-
-        <div class="box">
-            <ol>
-                <li>Non condividiamo mai numeri di telefono o indirizzi email direttamente visibili a tutti gli utenti.</li>
-                <li>Il contatto tra utenti avviene tramite sistemi che non richiedono la condivisione di informazioni di contatto dirette finché non necessario.</li>
-                <li>Non consentiamo la pubblicazione di immagini che mostrano minori riconoscibili.</li>
-                <li>Filtriamo automaticamente i contenuti utilizzando sistemi di rilevamento per bloccare contenuti potenzialmente inappropriati.</li>
-                <li>Verifichiamo regolarmente gli annunci pubblicati per garantire che rispettino le nostre linee guida.</li>
-            </ol>
-        </div>
-
-        <h2>Linee Guida per la Pubblicazione di Contenuti</h2>
-        <p>Tutti i contenuti pubblicati su TrovApp devono rispettare le seguenti linee guida:</p>
-
-        <div class="box">
-            <ul>
-                <li>Non includere informazioni personali sensibili nelle descrizioni pubbliche.</li>
-                <li>Non pubblicare immagini di minori riconoscibili.</li>
-                <li>Non pubblicare contenuti offensivi, discriminatori o inappropriati.</li>
-                <li>Non utilizzare un linguaggio volgare o offensivo.</li>
-                <li>Non pubblicare contenuti non correlati allo scopo dell'app (ritrovamento di oggetti smarriti).</li>
-            </ul>
-        </div>
-
-        <h2>Procedura di Segnalazione</h2>
-        <p>Se noti contenuti o comportamenti inappropriati su TrovApp, ti incoraggiamo a segnalarli immediatamente seguendo questa procedura:</p>
-
-        <div class="box">
-            <ol>
-                <li><strong>Segnalazione in-app</strong>: Utilizza la funzione "Segnala" disponibile su ogni annuncio e profilo utente per segnalare contenuti inappropriati.</li>
-                <li><strong>Contatto diretto</strong>: Se la segnalazione in-app non è possibile o per casi particolarmente gravi, invia un'email a <span class="email">developer.pixel.app@gmail.com</span> con oggetto "Segnalazione Contenuto Inappropriato".</li>
-                <li><strong>Informazioni da includere</strong>: Nella tua segnalazione, includi l'ID dell'annuncio o il nome utente, la natura del problema e qualsiasi altra informazione pertinente.</li>
-            </ol>
-        </div>
-
-        <h2>Processo di Moderazione</h2>
-        <p>Quando riceviamo una segnalazione, seguiamo questo processo:</p>
-
-        <div class="box">
-            <ol>
-                <li>Esaminiamo la segnalazione entro 24 ore dalla ricezione.</li>
-                <li>Valutiamo il contenuto in base alle nostre linee guida e standard di sicurezza.</li>
-                <li>Se il contenuto viola le nostre linee guida, lo rimuoviamo immediatamente.</li>
-                <li>In caso di violazioni gravi, sospendiamo o banniamo l'account dell'utente responsabile.</li>
-                <li>Per violazioni che potrebbero costituire reato, collaboriamo con le autorità competenti.</li>
-            </ol>
-        </div>
-
-        <div class="highlight">
-            <p><strong>Importante:</strong> In caso di sospetto abuso o sfruttamento di minori, i contenuti vengono rimossi immediatamente e le informazioni vengono trasmesse alle autorità competenti in conformità con le leggi vigenti.</p>
-        </div>
-
-        <h2>Collaborazione con le Autorità</h2>
-        <p>TrovApp collabora attivamente con le autorità di pubblica sicurezza e risponde tempestivamente alle richieste legali. In caso di segnalazioni relative ad abusi su minori:</p>
-        
-        <div class="box">
-            <ul>
-                <li>Conserviamo le prove pertinenti in conformità con le leggi applicabili.</li>
-                <li>Forniamo alle autorità tutte le informazioni richieste per le indagini.</li>
-                <li>Seguiamo le procedure di segnalazione obbligatorie previste dalla legge.</li>
-            </ul>
+    
+    <div class="nav">
+        <div class="nav-container">
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a>
+            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/safety-standards.html">Standard di Sicurezza</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/account-deletion.html">Cancellazione Account</a>
         </div>
     </div>
-
-    <div class="contact">
-        <h2>Punto di Contatto per la Sicurezza</h2>
-        <p>Per segnalazioni relative alla sicurezza dei minori o per maggiori informazioni sui nostri standard di sicurezza, contatta il nostro team dedicato all'indirizzo:</p>
-        <p class="email">developer.pixel.app@gmail.com</p>
+    
+    <div class="container">
+        <div class="section">
+            <h2>I nostri standard di sicurezza</h2>
+            <p>In TrovApp, la sicurezza e la protezione dei dati degli utenti sono le nostre priorità principali. Questo documento descrive le misure di sicurezza che adottiamo per proteggere i tuoi dati personali e garantire un'esperienza sicura all'interno dell'app.</p>
+        </div>
+        
+        <div class="section">
+            <div class="security-card">
+                <h3>Protezione dei dati</h3>
+                <p>Tutti i dati personali degli utenti vengono archiviati in database sicuri e protetti da avanzati sistemi di crittografia. Utilizziamo la crittografia SSL/TLS per tutte le comunicazioni tra l'app e i nostri server.</p>
+            </div>
+            
+            <div class="security-card">
+                <h3>Autenticazione sicura</h3>
+                <p>Utilizziamo il sistema di autenticazione OAuth di Google, che garantisce un accesso sicuro senza che TrovApp debba memorizzare o gestire direttamente le tue password. Questo sistema consente di proteggere le tue credenziali e ridurre i rischi di accessi non autorizzati.</p>
+            </div>
+            
+            <div class="security-card">
+                <h3>Protezione della privacy</h3>
+                <p>Le tue informazioni di contatto (email e telefono) sono visibili ad altri utenti solo quando pubblichi un annuncio, garantendo la tua privacy durante la navigazione nell'app. Hai sempre il controllo sulle informazioni che condividi.</p>
+            </div>
+            
+            <div class="security-card">
+                <h3>Verifica degli utenti</h3>
+                <p>Per ridurre il rischio di attività fraudolente, abbiamo implementato sistemi di verifica degli account che aiutano a garantire l'autenticità degli utenti che pubblicano annunci sulla piattaforma.</p>
+            </div>
+            
+            <div class="security-card">
+                <h3>Monitoraggio continuo</h3>
+                <p>I nostri sistemi monitorano costantemente l'attività sulla piattaforma per identificare e prevenire comportamenti anomali o potenzialmente dannosi.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Consigli per la sicurezza degli utenti</h2>
+            
+            <div class="important">
+                <p><strong>Per la tua sicurezza, ti consigliamo di:</strong></p>
+                <ul>
+                    <li>Incontrare le persone solo in luoghi pubblici e frequentati</li>
+                    <li>Comunicare principalmente attraverso l'app prima di scambiare contatti personali</li>
+                    <li>Non condividere informazioni finanziarie o personali sensibili non necessarie</li>
+                    <li>Verificare l'identità dell'altro utente prima di restituire oggetti di valore</li>
+                    <li>Segnalare comportamenti sospetti tramite l'apposita funzione nell'app</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Protezione dei dati Google</h2>
+            <p>Quando accedi tramite Google OAuth, adottiamo ulteriori misure per proteggere i tuoi dati:</p>
+            <ul>
+                <li>Utilizziamo i tuoi dati Google esclusivamente per l'autenticazione e la personalizzazione del profilo</li>
+                <li>Non accediamo né memorizziamo dati sensibili o non necessari dal tuo account Google</li>
+                <li>Implementiamo processi di verifica periodica per garantire che i dati siano protetti secondo gli standard più recenti</li>
+                <li>Rispettiamo rigorosamente le politiche di Google per gli sviluppatori e le normative sulla protezione dei dati</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Segnalazione di problemi di sicurezza</h2>
+            <p>Se riscontri un problema di sicurezza o sospetti un'attività fraudolenta all'interno dell'app, ti preghiamo di segnalarlo immediatamente:</p>
+            <ul>
+                <li>Utilizzando la funzione "Segnala" nell'app</li>
+                <li>Inviando un'email a <a href="mailto:developer.pixel.app@gmail.com">developer.pixel.app@gmail.com</a></li>
+            </ul>
+            <p>Il nostro team esaminerà la segnalazione e prenderà le misure appropriate per risolvere il problema.</p>
+        </div>
     </div>
-
-    <footer>
-        <p>© 2025 TrovApp. Tutti i diritti riservati.</p>
+    
+    <div class="footer">
+        <p>© 2024 TrovApp. Tutti i diritti riservati.</p>
         <p>
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a> | 
             <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a> | 
-            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a> | 
-            <a href="https://pixel-one79.github.io/trovapp-privacy/account-deletion.html">Eliminazione Account</a>
+            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
         </p>
-    </footer>
+    </div>
 </body>
 </html>
