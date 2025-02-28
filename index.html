@@ -12,68 +12,60 @@
             padding: 0;
             color: #333;
         }
-        
         header {
             background-color: #26A69A;
             color: white;
             text-align: center;
             padding: 1.5rem 0;
         }
-        
+        .nav {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            margin-right: 20px;
+            color: #26A69A;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
         }
-        
-        h1 {
-            color: white;
-        }
-        
-        h2, h3 {
+        h1, h2, h3 {
             color: #26A69A;
         }
-        
         .section {
             margin-bottom: 30px;
         }
-        
         .section ul {
             margin-top: 10px;
         }
-        
         a {
             color: #26A69A;
             text-decoration: none;
         }
-        
         a:hover {
             text-decoration: underline;
         }
-        
-        .nav {
-            background-color: #f8f8f8;
-            padding: 10px 0;
-            margin-bottom: 20px;
-        }
-        
-        .nav-container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        .nav a {
-            margin-right: 15px;
-        }
-        
         .highlight {
             background-color: #f0f8f7;
             padding: 15px;
             border-left: 4px solid #26A69A;
             margin-bottom: 20px;
         }
-        
         .footer {
             background-color: #f8f8f8;
             padding: 20px 0;
@@ -81,6 +73,14 @@
             text-align: center;
             font-size: 14px;
             color: #666;
+            border-top: 1px solid #e7e7e7;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer a {
+            color: #26A69A;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -92,10 +92,11 @@
     
     <div class="nav">
         <div class="nav-container">
-            <a href="https://pixel-one79.github.io/trovapp/">← Torna alla Home</a>
-            <a href="https://pixel-one79.github.io/trovapp-privacy/account-deletion.html">Cancellazione Account</a>
-            <a href="https://pixel-one79.github.io/trovapp-privacy/safety-standards.html">Standard di Sicurezza</a>
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a>
             <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/safety-standards.html">Standard di Sicurezza</a>
+            <a href="https://pixel-one79.github.io/trovapp-privacy/account-deletion.html">Cancellazione Account</a>
         </div>
     </div>
     
@@ -193,7 +194,11 @@
     
     <div class="footer">
         <p>© 2024 TrovApp. Tutti i diritti riservati.</p>
-        <p><a href="https://pixel-one79.github.io/trovapp/">Home</a> | <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a> | <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a></p>
+        <p>
+            <a href="https://pixel-one79.github.io/trovapp/">Home</a> | 
+            <a href="https://pixel-one79.github.io/trovapp-privacy/">Privacy Policy</a> | 
+            <a href="https://pixel-one79.github.io/trovapp-terms/">Termini di Servizio</a>
+        </p>
     </div>
 </body>
 </html>
